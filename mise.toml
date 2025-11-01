@@ -1,0 +1,7 @@
+[tools]
+clojure = "latest"
+java = "25"
+
+[tasks."antq"]
+description = "Run antq."
+run = "clojure -M:antq"
