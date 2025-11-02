@@ -2,6 +2,10 @@
 clojure = "latest"
 java = "25"
 
-[tasks."antq"]
+[tasks.antq]
 description = "Run antq."
 run = "clojure -M:antq"
+
+[tasks.download-portland-maps]
+description = "Download Portland Maps data."
+run = "clojure -M -m download-portland-maps"
